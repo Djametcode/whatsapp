@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+header {
+    background-color: #075E54;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+#welcome-text {
+    color: #EDF8F5;
+    padding-left: 15px;
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 15px;
+    top: 35px;
+    gap: 15px;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+#nav img {
+    padding-top: 9px;
+}
+#navtext {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+#navtext a {
+    color: #EDF8F5;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+#navtext a:hover {
+    background-color: #edf8f58c;
+}
+.text {
+    height: 1000vh;
+}
+
+/* main css */
+
+main {
+    background-color: #202a27;
+    padding: 15px;
+}
+
+.chat {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.image-user {
+    background-color: #EDF8F5;
+    width: 75px;
+    border-radius: 85px;
+}
+.chat2 {
+    color: #EDF8F5;
+    line-height: 7px;
+    position: relative;
+}
+.textchat-top {
+    font-size: 25px;
+}
+#floating-text {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    color: #EDF8F5;
+}
