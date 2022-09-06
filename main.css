@@ -7,7 +7,7 @@ body {
 }
 header {
     background-color: #075E54;
-    padding: 15px;
+    padding: 15px 15px 0px 15px;
     position: sticky;
     top: 0;
     z-index: 2;
@@ -32,7 +32,8 @@ header {
     gap: 35px;
 }
 #nav img {
-    padding-top: 9px;
+    padding-top: 8px;
+    padding-left: 0;
 }
 #navtext {
     display: flex;
@@ -47,9 +48,6 @@ header {
 }
 #navtext a:hover {
     background-color: #edf8f58c;
-}
-.text {
-    height: 1000vh;
 }
 
 /* main css */
@@ -73,6 +71,18 @@ main {
     width: 75px;
     border-radius: 85px;
 }
+.image-user-1 {
+    background-color: #EDF8F5;
+    width: 75px;
+    border-radius: 85px;
+}
+.image-user2 {
+    background-color: #EDF8F5;
+    width: 75px;
+    border-radius: 85px;
+    border: 3px solid rgb(156, 148, 148);
+    padding: 2px;
+}
 .chat2 {
     color: #EDF8F5;
     line-height: 7px;
@@ -95,12 +105,75 @@ main {
     flex-direction: row;
     gap: 35px;
     padding: 15px;
+    color: #EDF8F5;
+    position: relative;
 }
 .status-image {
     border-radius: 85px;
     width: 75px;
+    height: 75px;
+    margin-top: 20px;
+
 }
 .floating-status {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 65px;
+    top: 75px;
+}
+.status-top-text {
+    font-size: 25px;
+}
+.status-info {
+    font-size: 20px;
+    padding-left: 15px;
+    color: white;
+}
+.call-icon {
+    width: 75px;
+    scale: 0.7;
+    position: absolute;
+    right: 25px;
+}
+
+@media screen and (max-width: 393px) {
+    #nav {
+        gap: 3px;
+    }
+    
+    #navtext {
+        gap: 18px;
+    }
+    .textchat-top {
+        font-size: 20px;
+    }
+    .textchat-bottom {
+        font-size: 13px;
+    }
+    #floating-text {
+        font-size: 12px;
+        top: 20px;
+    }
+    .status-top-text {
+        font-size: 20px;
+    }
+    .status-bottom-text {
+        font-size: 16px;
+    }
+    
+    .status-info {
+        font-size: 15px;
+    }
+    .call-icon {
+        right: 0px;
+        scale: 0.5;
+        top: 5px;
+    }
+    body {
+        overflow: hidden;
+    }
+    #status {
+        padding-top: 0;
+    }
 }
