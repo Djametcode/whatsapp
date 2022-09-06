@@ -37,7 +37,7 @@ header {
 #navtext {
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    gap: 325px;
 }
 #navtext a {
     color: #EDF8F5;
