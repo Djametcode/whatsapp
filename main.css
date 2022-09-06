@@ -170,9 +170,6 @@ main {
         scale: 0.5;
         top: 5px;
     }
-    body {
-        overflow: hidden;
-    }
     #status {
         padding-top: 0;
     }
