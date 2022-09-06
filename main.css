@@ -87,3 +87,20 @@ main {
     top: 10px;
     color: #EDF8F5;
 }
+
+/* status css */
+
+#status {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    padding: 15px;
+}
+.status-image {
+    border-radius: 85px;
+    width: 75px;
+}
+.floating-status {
+    width: 35px;
+    height: 35px;
+}
