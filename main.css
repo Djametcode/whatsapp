@@ -138,6 +138,9 @@ main {
 }
 
 @media screen and (max-width: 393px) {
+    header {
+        padding: 9px 9px 0px 9px;
+    }
     #nav {
         gap: 3px;
     }
@@ -165,12 +168,26 @@ main {
     .status-info {
         font-size: 15px;
     }
+    .status-image {
+        scale: 0.8;
+    }
     .call-icon {
         right: 0px;
-        scale: 0.5;
+        scale: 0.4;
         top: 5px;
     }
     #status {
         padding-top: 0;
+    }
+    .image-user {
+        scale: 0.8;
+        width: 75px;
+        border-radius: 85px;
+    }
+    .image-user-1 {
+        scale: 0.8;
+    }
+    .image-user2 {
+        scale: 0.8;
     }
 }
