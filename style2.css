@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    background-color: #075E54;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+#flex-container1 {
+    display: flex; 
+    flex-direction: row;
+    position: relative;
+}
+
+#flex-container2 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 25px;
+    top: 35px;
+    gap: 20px;
+
+}
+.marin-profile {
+    margin-top: 15px;
+    border-radius: 85px;
+    width: 75px;
+    height: 75px;
+}
+.welcome-text {
+    padding: 15px;
+    color: white;
+    font-size: 25px;
+}
+.arrow {
+    padding-top: 40px;
+    padding-right: 15px;
+    color: white;
+    font-size: 25px;
+}
+main {
+    background-color: #202a27;
+    padding: 7px 15px 15px;
+    height: 100%;
+    z-index: 1;
+}
+.welcome-marin {
+    margin: 0px 35% 20px ;
+    background-color: #393e3cdb;
+    color: #838484;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+}
+.left-chat {
+    background-color: #393e3cdb;
+    color: #838484;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 45%;
+    padding-left: 9px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.right-chat {
+    background-color: #075E54;
+    color: #838484;
+    gap: 10px;
+    width: 45%;
+    border-radius: 15px;
+    float: right;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+#clear {
+    clear: both;
+}
