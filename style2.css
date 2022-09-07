@@ -39,16 +39,20 @@ header {
     font-size: 25px;
 }
 .arrow {
-    padding-top: 40px;
-    padding-right: 15px;
     color: white;
     font-size: 25px;
 }
+.arrow-style {
+    text-decoration: none;
+    padding: 37px 5px 0px 5px;
+}
 main {
-    background-color: #202a27;
+    background-image: url('asset/bg.jpeg');
+    background-attachment: fixed;
     padding: 7px 15px 15px;
     height: 100%;
     z-index: 1;
+
 }
 .welcome-marin {
     margin: 0px 35% 20px ;
@@ -64,23 +68,103 @@ main {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    width: 45%;
+    width: 35%;
     padding-left: 9px;
+    padding-right: 9px;
     border-radius: 15px;
     margin-bottom: 20px;
     position: relative;
+    margin-left: 25px;
 }
 .right-chat {
     background-color: #075E54;
     color: #838484;
     gap: 10px;
-    width: 45%;
+    width: 35%;
     border-radius: 15px;
     float: right;
     position: relative;
     display: flex;
     flex-direction: row;
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-right: 25px;
+}
+.right-chat-bottom {
+    background-color: #075E54;
+    color: #838484;
+    gap: 10px;
+    width: 35%;
+    border-radius: 15px;
+    float: right;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-right: 25px;
+    margin-bottom: 55px;
 }
 #clear {
     clear: both;
+}
+.time-1 {
+    position: absolute;
+    right: 10px;
+    top: 13px;
+}
+.time-1-pap {
+    position: absolute;
+    right: 10px;
+    top: 295px;
+}
+.left-chat-pap {
+    position: relative;
+    height: 300px;
+    width: 35%;
+    margin: 0px 0px 45px 15px;
+}
+.pap {
+    height: 300px;
+    position: absolute;
+    padding: 25px;
+}
+#sender {
+    background-color: #838484;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    border-radius: 15px;
+    margin: 20px 25px 0px 25px;
+    width: 87%;
+}
+.input-text {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: none;
+    border: none;
+    width: 1015px;
+}
+.input-text:focus::after {
+    background-color: #393e3c00;
+    color: black;
+    border: none;
+}
+#sender2 {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    position: absolute;
+    right: 55px;
+    bottom: 10px;
+    gap: 27px;
+    padding-right: 5px;
+}
+#flex-container-bottom {
+    position: fixed;
+    bottom: 0;
+}
+.vc {
+    background-color: #075E54;
+    border-radius: 15px;
 }
