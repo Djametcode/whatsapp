@@ -126,7 +126,7 @@ main {
 .time-1-cs-3 {
     position: absolute;
     right: 10px;
-    top: 61px;
+    top: 45px;
 }
 .time-1-cs-4 {
     position: absolute;
@@ -191,7 +191,7 @@ main {
     border-radius: 15px;
 }
 
-@media screen and (max-device-width: 493px) {
+@media screen and (max-device-width: 471px) {
     #flex-container2 {
         gap: 5px;
         scale: 0.8;
@@ -199,30 +199,5 @@ main {
     }
     .welcome-marin {
         margin: 0px 25% 20px ;
-    }
-    .pap {
-        scale: 0.7;
-        transform: translateX(-80px);
-    }
-    .left-chat, .right-chat, .right-chat-bottom {
-        width: 45%;
-        scale: 0.8;
-        margin: 0px 3px ;
-    }
-    .right-chat-bottom {
-        margin-bottom: 45px;
-    }
-    .input-text {
-        width: 400px;
-    }
-    #flex-container-bottom {
-        scale: 0.7;
-        transform: translateX(-110px);
-    }
-    #sender2 {
-        transform: translateX(80px);
-    }
-    .left-chat-pap {
-        margin: 15px;
     }
 }
