@@ -191,7 +191,7 @@ main {
     border-radius: 15px;
 }
 
-@media screen and (max-width: 493px) {
+@media screen and (max-device-width: 493px) {
     #flex-container2 {
         gap: 5px;
         scale: 0.8;
