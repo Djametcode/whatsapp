@@ -103,7 +103,6 @@ main {
     padding-left: 9px;
     padding-right: 9px;
     margin-right: 25px;
-    margin-bottom: 55px;
 }
 #clear {
     clear: both;
@@ -126,7 +125,7 @@ main {
 .time-1-cs-3 {
     position: absolute;
     right: 10px;
-    top: 45px;
+    top: 65px;
 }
 .time-1-cs-4 {
     position: absolute;
@@ -134,22 +133,11 @@ main {
     top: 31px;
 }
 
-
-.time-1-pap {
-    position: absolute;
-    right: 10px;
-    top: 350px;
-}
 .left-chat-pap {
     position: relative;
     height: 300px;
     width: 35%;
     margin: 0px 0px 45px 15px;
-}
-.pap {
-    height: 300px;
-    position: absolute;
-    padding: 25px;
 }
 #sender {
     background-color: #838484;
@@ -159,18 +147,17 @@ main {
     gap: 15px;
     border-radius: 15px;
     margin: 20px 25px 0px 25px;
-    width: 87%;
+    width: 85%;
 }
 .input-text {
     background-color: rgba(255, 255, 255, 0);
     box-shadow: none;
     border: none;
-    width: 1015px;
 }
-.input-text:focus::after {
+.input-text:focus {
     background-color: #393e3c00;
     color: black;
-    border: none;
+    outline: none;
 }
 #sender2 {
     display: flex;
@@ -183,7 +170,7 @@ main {
     padding-right: 5px;
 }
 #flex-container-bottom {
-    position: fixed;
+    position: sticky;
     bottom: 0;
 }
 .vc {
@@ -192,12 +179,50 @@ main {
 }
 
 @media screen and (max-device-width: 471px) {
-    #flex-container2 {
-        gap: 5px;
+    #flex-container1 {
         scale: 0.8;
-        right: 10px;
+        transform: translateX(-50px);
+    }
+    #flex-container2 {
+        gap: 10px;
+        scale: 0.8;
+        right: 5px;
     }
     .welcome-marin {
         margin: 0px 25% 20px ;
+        scale: 0.9;
+    }
+    .left-chat {
+        scale: 0.9;
+        transform: translateX(-32px);
+        width: 50%;
+    }
+    .right-chat {
+        scale: 0.9;
+        transform: translateX(32px);
+        width: 50%;
+    }
+    .right-chat-bottom {
+        scale: 0.9;
+        transform: translateX(32px);
+        width: 50%;
+    }
+    #sender {
+        background-color: #838484;
+        padding: 10px;
+        flex-direction: row;
+        border-radius: 15px;
+        margin: 0;
+        scale: 0.7;
+        width: 450px;
+        transform: translateX(-95px);
+    }
+    #sender2 {
+        scale: 0.7;
+        transform: translateX(65%);
+    }
+    .input-text {
+        width: 300px;
+        font-size: 25px;
     }
 }
